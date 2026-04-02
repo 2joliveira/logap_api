@@ -11,6 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/maintenance")
+@CrossOrigin(origins = "http://localhost:5173")
 public class MaintenanceController {
 
     private final MaintenanceRepository repository;
