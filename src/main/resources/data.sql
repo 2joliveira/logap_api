@@ -50,13 +50,13 @@ INSERT INTO viagens (veiculo_id, data_saida, data_chegada, origem, destino, km_p
 INSERT INTO manutencoes (veiculo_id, data_inicio, data_finalizacao, tipo_servico, custo_estimado, status) VALUES 
 (1, '2026-04-10', '2026-04-11', 'Troca de Óleo', 350.00, 'PENDENTE'),
 (2, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'PENDENTE'),
-(3, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'PENDENTE'),
+(3, '2026-04-15', '2026-04-17', 'Troca de Pneus', 2200.00, 'PENDENTE'),
 (3, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'EM_REALIZACAO'),
-(1, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'EM_REALIZACAO'),
-(1, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'EM_REALIZACAO'),
+(1, '2026-04-15', '2026-04-17', 'Troca de Óleo', 350.00, 'EM_REALIZACAO'),
+(1, '2026-04-15', '2026-04-17', 'Alinhamentoalinhamento e balanceamento', 1000.00, 'EM_REALIZACAO'),
 (1, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'PENDENTE'),
 (2, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'PENDENTE'),
-(4, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'CONCLUIDA'),
-(4, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'CONCLUIDA'),
+(4, '2026-04-15', '2026-04-17', 'Alinhamentoalinhamento e balanceamento', 1000.00, 'CONCLUIDA'),
+(4, '2026-04-15', '2026-04-17', 'Troca de Pneus', 2200.00, 'CONCLUIDA'),
 (4, '2026-04-15', '2026-04-17', 'Revisão de Freios', 1500.00, 'CONCLUIDA'),
 (3, '2026-03-20', '2026-03-20', 'Troca de Pneus', 2200.00, 'CONCLUIDA');
