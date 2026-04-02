@@ -51,31 +51,10 @@ O banco de dados H2 é inicializado com dados de exemplo via `data.sql`. As tabe
 
 ## Endpoints da API
 
-### Agendar Manutenção
-- **POST** `/maintenance/`
-- Corpo da requisição: `MaintenanceRequest` (JSON)
-- Exemplo:
-  ```json
-  {
-    "veiculoId": 1,
-    "dataInicio": "2023-10-01",
-    "dataFinalizacao": "2023-10-05",
-    "tipoServico": "Revisão",
-    "custoEstimado": 500.00,
-    "status": "AGENDADO"
-  }
-  ```
-
 ### Dashboard
 - **GET** `/maintenance/`
 - Retorna métricas como quilometragem total, volume por categoria, manutenções agendadas, ranking de uso e projeção financeira.
 
-## Testes
-
-Execute os testes com:
-```
-mvn test
-```
 
 ## Estrutura do Projeto
 
